@@ -35,7 +35,7 @@
         <div id="cidade" class="itemflex50">
           <div class="cityflex">
             <h2>Vitória - ES - Brasil.</h2>
-            <p class="contenttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed mauris lacus. Donec metus nisi, accumsan ut nulla sit amet, molestie cursus nisl. Integer enim augue, sollicitudin vel tristique eget, euismod a sapien</p>
+            <p class="contenttext">Vitória é um município brasileiro, capital do estado do Espírito Santo, na Região Sudeste do país. É uma das três capitais do país cujo centro administrativo e a maior parte do município estão localizados em uma ilha, no caso, a Ilha de Vitória. Referência quando se trata de belas paisagens naturais e pontos turisticos incríveis.</p>
             <a href="https://google.com" target="_blank">
               <button class="button buttondois">RESERVE AGORA</button>
             </a>
@@ -68,10 +68,17 @@
       <section class="contact">
         <div class="itemflex50">
           <div id="contato" class="cityflex">
-            <h2>Alguma Dúvida?</h2>
-            <h2 class="contacttitle">Entre em contato:</h2>
-            <p>(33) 99999-9999 </p>
-            <p>hoteldev@hotel.com</p>
+            <form action="https://api.staticforms.xyz/submit" method="post" class="form">
+              <input type="hidden" name="accessKey" value="1824e7d3-5c4b-40d9-a4b3-b9151beea9fa">
+              <!-- <input type="hidden" name="redirectTo" value="o site que é para redirecionar"> -->
+              <h1 class="formText">Alguma Duvida?</h1>
+              <h4 class="formText">Entre em contato pelo formulário abaixo:</h4>
+              <input class="input" type="text" name="name" required placeholder="Nome Completo" />
+              <input class="input" type="text" name="phone" placeholder="Telefone ou Celular" />
+              <input class="input" type="email" name="email" required placeholder="E-mail" />
+              <textarea class="input" name="message" placeholder="Digite aqui sua Mensagem" rows="5" maxlength="256"></textarea>
+              <button class="buttonform" type="submit">Enviar</button>
+            </form>
           </div>
         </div>
         <div class="itemflex50">

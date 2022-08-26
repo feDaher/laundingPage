@@ -1,4 +1,4 @@
-/*let count = 1;
+let count = 1;
 document.getElementById("radio1").checked = true;
 
 setInterval( function (){
@@ -12,8 +12,6 @@ function nextImg () {
   }
   document.getElementById("radio"+count).checked = true;
 }
-Quando fizer um carrossel de fotos.
-*/
 
 const menu = document.querySelector('nav');
 
@@ -23,8 +21,6 @@ function activeScroll () {
 
 window.addEventListener('scroll', activeScroll);
 
-/*
-Quando fizer um carrossel de fotos.
 class MobileNavbar {
   constructor(mobileMenu, navList){
     this.mobileMenu = document.querySelector(mobileMenu);
@@ -55,4 +51,3 @@ const mobileNavbar = new MobileNavbar (
 )
 
 mobileNavbar.init();
-*/
